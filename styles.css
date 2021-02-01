@@ -1,0 +1,42 @@
+ :root {
+    /* background-color: lightgrey; */
+
+} 
+
+body {
+    margin: 0;
+}
+
+#app-calendar {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(5, 1fr);
+    height: 500px;
+    
+
+}
+
+.day{
+    color:black;
+    border-style:outset;
+    text-align: center;
+    
+    
+}
+.weekend {
+    color: rgb(18, 88, 86);
+}
+
+.selected {
+    background-color: cadetblue;
+}
+
+
+
+
+
+
+
+
+
+
